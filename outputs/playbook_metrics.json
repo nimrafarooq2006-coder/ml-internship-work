@@ -1,0 +1,22 @@
+{
+  "pages": 30000,
+  "clients": 32,
+  "validation": "5-fold grouped by client (no client in both train and test)",
+  "random_picking_rate": 0.542,
+  "auc": 0.57,
+  "precision_at_50": 0.64,
+  "precision_at_100": 0.66,
+  "precision_at_500": 0.686,
+  "queue_order": "actionable reason codes first, then model score x log10(impressions)",
+  "queue_precision_at_50": 0.44,
+  "queue_precision_at_100": 0.42,
+  "queue_precision_at_500": 0.556,
+  "main_queue": "B: model score order, pages with 100+ impressions only",
+  "visible_pages": 22006,
+  "visible_decline_rate": 0.598,
+  "B_precision_at_50": 0.68,
+  "B_precision_at_100": 0.78,
+  "B_precision_at_500": 0.762,
+  "A_precision_at_50": 0.64,
+  "C_precision_at_50": 0.44
+}
